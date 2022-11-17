@@ -34,14 +34,6 @@ In diesem Repo soll zusammengefasst werden, was man für die Arbeit mit git und 
 ## Ioan:
 - git Befehle für die Arbeit mit lokalen Repositories (inkl. Erläuterungen)
 
-
-## Git Befehle für die Arbeit mit entfernten Repositories:
-- git clone   :   Kopiert das entfernte Repository auf das lokale Repository 
-- git fetch   :   Holt neu angelegte Dateien vom entfernten ins lokas Repository
-- git pull    :   Fetch + Merge in einem Befehl
-- git push    :   Übergibt den Commit aus dem lokalen Repository ins entfernte Repository
-
-
 ## Git Befehle für die Arbeit mit lokalen Repositories:
 - git init 
 - git commit 
@@ -67,25 +59,51 @@ Der Befehl "git commit" folgt meisten mit dem "-m" als Paramerter. -m Parameter 
 -m parameter wird nicht benutzt. Dadurch geht VIM auf und man wind gefördert einen Nachricht mitzugeben. 
 
 ### git branch
-"git branch"-Befehl wird benutzt um einen Branch zu erstellen. Ein Branch ist nicht anders als ein Namensschild. 
+"git branch"-Befehl wird benutzt um einen Branch zu erstellen. Ein Branch ist nicht anders als ein Namensschild.
+
+#### Mögliche Fehler "git branch"
+Nach dem man einen Branch erstellt hat muss man den branch auschecken. Wenn das nicht gemacht wird, bleibt man auf dem Branch master und die Änderungen werden auf dem Master gespeichert. Dann brigt der Branch keinen Vorteil. 
 
 ### git merge 
 "git merge"-Befehl wird benutzt um zwei Commits zusammenzuführen. Der daraus resultierende Commit hat dementspreschen als Elterncommit, zwei Commits. 
 
+#### Mögliche Fehler "git merge"
+Wenn man einen Branch mit dem master mergen möchte muss man auf dem master ausgecheckt sein und dann den Befehl ausführen mit dem name des Branches.
+
 ### git rebase
 "git rebase" verändert die ganze Historie eines Branches. 
+
+#### Mögliche Fehler "git rebase"
+Die sintax von git rebase wird sehr oft mit dem sintax von git merge verwechselt. Um einen Branch in den andere zu überführen, muss man auf dem jenigen Branch ausgecheckt sein. Dann folgt der rebase Befehl mit dem Name des Branches wo der ausgecheckte Branch neue positioniert werden soll.  
 
 ### git log
 Mit "git log" kann man sich die Commits eines Branches anzeigen lassen oder alles Commits zusammen. Um alle Commits sich anzeigen zu lassen muss man "git log --all" ausführen.
 
+#### Mögliche Fehler "git log"
+Oft benutzt man git log und möchte die Commits des Masters sehen. Jedoch tauchen nur Commits einens Branche. Das passiert wenn man auf ein Branch ausgecheckt ist, und nur git log benutzt. Um die Commits eines anderes Branches zu zeigen nutzt man der Befehl "git log" gefolgt von der Name des Branches
+
 ### git reset 
 Der Befehl "git reset" schreibt die Historie neue. Der aktuelle Branch wird auf einem Älteren commit zurückgesetzt. 
+
+#### Mögliche Fehler "git reset"
+Wenn man einen reset durchführt, muss man aufpassen welche Hash-Wert man nehmt. Man soll sich vergewissern, dass der Hash-Wert auch der gewünschte ist.
 
 ### git cherry-pick
 Der Befehl "git cherrypick" nehme nur einen einzelnen Commit raus ohne Historie. 
 
+#### Mögliche Fehler "git cherry-pick"
+Wenn man einen cherry-pick durschführt, muss man aufpassen welche Hash-Wert man nehmt. Man soll sich vergewissern, dass der Hash-Wert auch der gewünschte ist.
+
 ### git add
-Der Befehl "git add" verschiebt alle geänderten Dataien im Staging-Area.
+Der Befehl "git add" verschiebt alle geänderten Dataien im Staging-Area. Mit "git add *" werden alle Änderungen in Staging-Area übernohmen
+
+#### Mögliche Fehler "git add"
+Es soll aufgepasst werden, welche Dataien im Staging-Area sich befinden.
 
 ###git checkout
 Der Befehl "git checkout" wechselt zwischen den Commits und Branches hin und her. 
+
+#### Mögliche Fehler "git checkout"
+Es soll aufgepasst werden auf welche Branch oder Commit man auschecken möchte. 
+
+
