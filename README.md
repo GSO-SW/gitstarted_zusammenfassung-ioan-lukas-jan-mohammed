@@ -43,6 +43,6 @@ In diesem Repo soll zusammengefasst werden, was man für die Arbeit mit git und 
 
 
 ## Begriffe definieren und erklären:
-- Unter Repository versteht man ein Projekt.
-- Branch sind verweise auf ein Snapshot von deiner letzten Veränderung
-- Commit's 
+- Repository      : Unter Repository versteht man ein Projekt.
+- Branch          : Branch sind verweise auf ein Snapshot von deiner letzten Veränderung
+- Stagingarea     : Alle geaddeteten Dateien sind auf der "Bühne" und können mit einem Commit zusammengefasst werden
