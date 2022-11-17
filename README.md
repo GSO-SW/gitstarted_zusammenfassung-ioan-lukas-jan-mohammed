@@ -40,3 +40,4 @@ In diesem Repo soll zusammengefasst werden, was man für die Arbeit mit git und 
 - git fetch   :   Holt neu angelegte Dateien vom entfernten ins lokas Repository
 - git pull    :   Fetch + Merge in einem Befehl
 - git push    :   Übergibt den Commit aus dem lokalen Repository ins entfernte Repository
+- git revert  :   Lässt Änderungen ungeschehen machen (genau wie reset im lokalen Repository)
