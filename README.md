@@ -47,3 +47,5 @@ In diesem Repo soll zusammengefasst werden, was man für die Arbeit mit git und 
 - git pull, die eigene Datei darf nicht bearbeitet sein
 - git push, bei ersten Push <- git push --set-upstream origin branch-name
 - git fetch, achte darauf, dass du den richtigen Merge fetchst
+- git revert, denk dran, den Commit zu wählen. z.B. git revert master^
+
