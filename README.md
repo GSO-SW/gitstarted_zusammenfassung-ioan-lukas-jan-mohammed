@@ -46,3 +46,4 @@ In diesem Repo soll zusammengefasst werden, was man für die Arbeit mit git und 
 - Repository      : Unter Repository versteht man ein Projekt.
 - Branch          : Branch sind verweise auf ein Snapshot von deiner letzten Veränderung
 - Stagingarea     : Alle geaddeteten Dateien sind auf der "Bühne" und können mit einem Commit zusammengefasst werden
+- Merge-Konflikte : Die entstehen dann, wenn zwei Personen eine Zeile in einer Datetei geändert haben oder ein Entwickler eine Datei löscht, während ein anderer diese ändert.
