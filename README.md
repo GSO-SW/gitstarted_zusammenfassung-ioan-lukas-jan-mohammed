@@ -43,7 +43,7 @@ In diesem Repo soll zusammengefasst werden, was man für die Arbeit mit git und 
 
 
 ## Git Befehle für die Arbeit mit lokalen Repositories:
-- git init
+- git init 
 - git commit 
 - git branch
 - git merge
@@ -53,3 +53,39 @@ In diesem Repo soll zusammengefasst werden, was man für die Arbeit mit git und 
 - git cherry-pick
 - git add
 - git checkout
+
+### git init
+Der Befehl "git init" verändert der actuelle Verzeichniss in ein git repository. 
+
+#### Mögliche fehler "git init"
+Wir sehr oft vergessen und man wundert sich warum die git befehle nicht funktionieren.
+
+### git commit 
+Der Befehl "git commit" folgt meisten mit dem "-m" als Paramerter. -m Parameter ist zuständig für den Nachricht des Commits.
+
+#### Mögliche Fehler "git commit"
+-m parameter wird nicht benutzt. Dadurch geht VIM auf und man wind gefördert einen Nachricht mitzugeben. 
+
+### git branch
+"git branch"-Befehl wird benutzt um einen Branch zu erstellen. Ein Branch ist nicht anders als ein Namensschild. 
+
+### git merge 
+"git merge"-Befehl wird benutzt um zwei Commits zusammenzuführen. Der daraus resultierende Commit hat dementspreschen als Elterncommit, zwei Commits. 
+
+### git rebase
+"git rebase" verändert die ganze Historie eines Branches. 
+
+### git log
+Mit "git log" kann man sich die Commits eines Branches anzeigen lassen oder alles Commits zusammen. Um alle Commits sich anzeigen zu lassen muss man "git log --all" ausführen.
+
+### git reset 
+Der Befehl "git reset" schreibt die Historie neue. Der aktuelle Branch wird auf einem Älteren commit zurückgesetzt. 
+
+### git cherry-pick
+Der Befehl "git cherrypick" nehme nur einen einzelnen Commit raus ohne Historie. 
+
+### git add
+Der Befehl "git add" verschiebt alle geänderten Dataien im Staging-Area.
+
+###git checkout
+Der Befehl "git checkout" wechselt zwischen den Commits und Branches hin und her. 
