@@ -36,8 +36,14 @@ In diesem Repo soll zusammengefasst werden, was man für die Arbeit mit git und 
 
 
 ## Git Befehle für die Arbeit mit entfernten Repositories:
+- Befehle:
 - git clone   :   Kopiert das entfernte Repository auf das lokale Repository 
 - git fetch   :   Holt neu angelegte Dateien vom entfernten ins lokas Repository
 - git pull    :   Fetch + Merge in einem Befehl
 - git push    :   Übergibt den Commit aus dem lokalen Repository ins entfernte Repository
 - git revert  :   Lässt Änderungen ungeschehen machen (genau wie reset im lokalen Repository)
+
+- Hinweis auf typische Fehler:
+- git pull, die eigene Datei darf nicht bearbeitet sein
+- git push, bei ersten Push <- git push --set-upstream origin branch-name
+- 
