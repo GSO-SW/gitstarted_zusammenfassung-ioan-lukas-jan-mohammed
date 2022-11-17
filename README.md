@@ -42,6 +42,7 @@ In diesem Repo soll zusammengefasst werden, was man für die Arbeit mit git und 
 - git pull    :   Fetch + Merge in einem Befehl
 - git push    :   Übergibt den Commit aus dem lokalen Repository ins entfernte Repository
 - git revert  :   Lässt Änderungen ungeschehen machen (genau wie reset im lokalen Repository)
+- git branch -m old_branch new_branch  :   Name des ausgewählten Branch ändern 
 
 - Hinweis auf typische Fehler:
 - git pull, die eigene Datei darf nicht bearbeitet sein
