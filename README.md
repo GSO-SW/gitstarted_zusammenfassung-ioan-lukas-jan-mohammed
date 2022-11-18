@@ -107,7 +107,6 @@ Der Befehl "git checkout" wechselt zwischen den Commits und Branches hin und her
 Es soll aufgepasst werden auf welche Branch oder Commit man auschecken möchte. 
 
 
-<<<<<<< HEAD
 ## Git Befehle für die Arbeit mit entfernten Repositories:
 - Befehle:
 - git clone   :   Kopiert das entfernte Repository auf das lokale Repository 
@@ -181,9 +180,3 @@ Beispiel .... Eine Methode ist polymorph, wenn sie in verschiedenen Klassen die 
 
 public override string ToString(){}
 
-
-
->>>>>>> origin/mohammad
-
-=======
->>>>>>> origin/ioan
