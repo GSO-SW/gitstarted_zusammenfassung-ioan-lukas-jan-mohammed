@@ -58,3 +58,57 @@ In diesem Repo soll zusammengefasst werden, was man für die Arbeit mit git und 
 - Stagingarea     : Alle geaddeteten Dateien sind auf der "Bühne" und können mit einem Commit zusammengefasst werden
 - Merge-Konflikte : Die entstehen dann, wenn zwei Personen eine Zeile in einer Datetei geändert haben oder ein Entwickler eine Datei löscht, während ein anderer diese ändert.
 
+
+## Fachbegriffe OOP erklären
+Abstract:Der abstract-Modifizierer gibt an, dass dem modifizierten Objekt eine Implementierung fehlt oder dass diese unvollständig ist.
+Der abstract-Modifizierer kann für Klassen, Methoden, Eigenschaften, Indexer und Ereignisse verwendet werden.
+
+
+Abstract (Klasse):
+
+Eine abstrakte Klasse darf nicht instanziiert werden.
+Eine abstrakte Klasse enthält möglicherweise abstrakte Methode und Accessoren.
+
+abstract class main
+{
+    public abstract int GetArea();
+}
+
+Abstract (Methode):
+Eine abstrakte Methode ist implizit eine virtuelle Methode.
+Abstrakte Methodendeklarationen sind nur in abstrakten Klassen zulässig.
+public abstract void Car(); 
+
+
+Virtual: Das Schlüssel Wort Virtual wird züm ändern einer Methode, Eigenschaften,Indexer oder Ereignisdeklaration verwendet.
+
+public virtual string Name { get; set; }
+
+    
+    private int _num;
+    public virtual int Number
+    {
+        get { return _num; }
+        set { _num = value; }
+    }
+
+Override: Das beschreibt eine Technik in der OOP, die es einer abgeleiteten Klasse erlaubt, eine eigene Implementierung einer von Muterklasse geerbten Methoden zu defenieren.
+
+public override void Method()
+{
+base.Method();
+// implementation
+}
+
+
+Polymorphie: Das ermöglicht, dass ein Bezeichner abhängig von seiner Verwendung Objekte unterschiedlichen Datentyps annimmt.
+oder ist eine Eigenschaft, die immer im Zusammenhang mit Vererbung und Schnittstellen auftritt.
+Beispiel .... Eine Methode ist polymorph, wenn sie in verschiedenen Klassen die gleiche Signatur hat, jedoch erneut implementiert ist.
+
+
+public override string ToString(){}
+
+
+
+>>>>>>> origin/mohammad
+
