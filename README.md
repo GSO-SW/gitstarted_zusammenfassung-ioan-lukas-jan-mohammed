@@ -50,3 +50,11 @@ In diesem Repo soll zusammengefasst werden, was man für die Arbeit mit git und 
 - git fetch, achte darauf, dass du den richtigen Merge fetchst
 - git revert, denk dran, den Commit zu wählen. z.B. git revert master^
 - git branch -m, achte drauf, dass der Name des neuen Branches noch nicht existiert! 
+
+
+## Begriffe definieren und erklären:
+- Repository      : Unter Repository versteht man ein Projekt.
+- Branch          : Branch sind verweise auf ein Snapshot von deiner letzten Veränderung
+- Stagingarea     : Alle geaddeteten Dateien sind auf der "Bühne" und können mit einem Commit zusammengefasst werden
+- Merge-Konflikte : Die entstehen dann, wenn zwei Personen eine Zeile in einer Datetei geändert haben oder ein Entwickler eine Datei löscht, während ein anderer diese ändert.
+
